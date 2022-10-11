@@ -1,0 +1,62 @@
+@font-face{
+	/*src: url(../fonts/Poppins-Bold.otf);
+	font-family: Poppins-Bold;*/
+	/*src: url(../fonts/Poppins-Medium.otf);
+	font-family: Poppins-Medium;*/
+	src: url(../fonts/Poppins-Regular.otf);
+	font-family: Poppins-Regular;
+	
+}
+
+/*Common CSS start*/
+body{
+	font-family: Poppins-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000;
+}
+/*Common CSS end*/
+
+/*Header start*/
+header{
+	padding: 10px 0;
+	background-color: #F0FFF0;
+}
+.logo{
+	width: 195px;
+}
+.menu ul li a{
+	padding: 0 25px !important;
+	font-weight: 400;
+	font-size: 16px;
+	color: #000000 !important;
+	line-height: 24px;
+}
+.menu ul li a:hover{
+	color: #FD511A !important;
+}
+@font-face{
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-family: Roboto-Regular;
+}
+.btn_common{
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	color: #FFFFFF !important;
+	background-color: #21B573 !important;
+	border-radius: 33px;
+	transition: .3s ease-in-out;
+}
+
+.btn_sign{
+	padding: 12px 25px;
+	margin-left: 5px;
+	width: 105px;
+	height: 45px;
+}
+.btn_common:hover{
+	background-color: #FD511A !important;
+}
+/*Header end*/
