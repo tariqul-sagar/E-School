@@ -17,6 +17,36 @@
 	    height: 37px;
 	}
 	/*Header end*/
+
+	/*Banner start*/
+	.banner{
+		padding: 5px 0 40px;
+	}
+	.b_text{
+		text-align: center;
+	}
+	.b_p_one{	
+		line-height: 20px;
+	}
+	.b_h_one {
+		margin: 10px 0;
+	    font-size: 24px;
+	    line-height: 28px;
+	}
+	.b_p_two{
+		padding: 0 13px;
+		line-height: 24px;
+	}
+	.btn_banner {
+	    padding: 10px 22px;
+	    width: 135px;
+	    height: 38px;
+	}
+	.b_img{
+		margin-bottom: 30px;
+		padding: 0 30px;
+	}
+	/*Banner end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -32,6 +62,33 @@
 	    height: 37px;
 	}
 	/*Header end*/
+
+	/*Banner start*/
+	.banner{
+		padding: 5px 0 50px;
+	}
+	.b_text{
+		text-align: center;
+	}
+	.b_h_one {
+		margin: 10px 0;
+	    font-size: 26px;
+	    line-height: 35px;
+	}
+	.b_p_two{
+		padding: 0 55px;
+		line-height: 28px;
+	}
+	.btn_banner {
+	    padding: 12px 28px;
+	    width: 145px;
+	    height: 40px;
+	}
+	.b_img{
+		margin-bottom: 40px;
+		padding: 0 90px;
+	}
+	/*Banner end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -47,6 +104,28 @@
 	    height: 37px;
 	}
 	/*Header end*/
+
+	/*Banner start*/
+	.banner{
+		padding: 15px 0 60px;
+	}
+	.b_text{
+		text-align: center;
+	}
+	.b_h_one {
+		margin: 10px 0;
+	    font-size: 35px;
+	    line-height: 50px;
+	}
+	.b_p_two{
+		padding: 0 100px;
+		line-height: 30px;
+	}
+	.b_img{
+		margin-bottom: 50px;
+		padding: 0 120px;
+	}
+	/*Banner end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -56,4 +135,10 @@
 @media (min-width: 1200px) and (max-width: 1399.98px) { ... }
 
 /*Extra extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1400px) { ... }
+@media (min-width: 1400px) {
+	/*Banner start*/
+	.b_text{
+		margin-top: 45px;
+	}
+	/*Banner end*/
+}
