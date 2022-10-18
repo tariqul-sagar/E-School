@@ -99,3 +99,117 @@ header{
 .b_img img{}
 
 /*Banner CSS end*/
+
+/*Feature CSS start*/
+.feature{
+	padding-top: 45px;
+	padding-bottom: 100px;
+}
+.f_contant{
+	padding: 55px;
+	width: 100%;
+	min-height: 270px;
+	background-color: #F0FFF0;
+	border-radius: 10px;
+	text-align: center;
+	transition: .3s ease-in-out;
+}
+.f_contant:hover{
+	background: #FFFFFF;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.f_img{
+	margin-bottom: 22px;
+}
+.f_img img{}
+@font-face{
+	src: url(../fonts/Poppins-Medium.otf);
+	font-family: Poppins-Medium;
+}
+.f_h2{
+	font-family: Poppins-Medium;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 36px;
+}
+.f_p{
+	line-height: 24px;
+}
+/*Feature CSS end*/
+
+/*Course CSS start*/
+/*Course CSS end*/
+
+/*Testimonial start*/
+.testimonial{
+	padding: 0 0 100px;
+}
+.title{
+	margin-bottom: 65px;
+}
+.title h1{
+	font-family: Poppins-Bold;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 54px;
+	text-align: center;
+}
+.t_content{}
+.test_img{
+	margin: -6px auto 0;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.test_img img{}
+.t_comment{}
+.t_comment p{
+	font-weight: 400;
+	line-height: 30px;
+}
+/*Testimonial end*/
+
+/*Footer start*/
+footer{
+	padding: 55px 0 30px;
+	color: #ffffff;
+	background-color: #282531;
+}
+.footer_para{
+	padding: 0 28px;
+}
+.footer_para p{
+	line-height: 30px;
+}
+.footer_h2{
+	font-family: Poppins-Bold;
+	font-size: 18px;
+	font-weight: 700;	
+	line-height: 30px;
+}
+.footer_list{}
+.footer_list ul{
+	padding: 0 0 75px;
+	list-style: none;
+}
+@font-face{
+	src: url(../fonts/Poppins-Regular.otf);
+	font-family: Poppins-Regular;	
+}
+
+.footer_list ul li a{
+	font-family: Poppins-regular;
+	color: #ffffff;
+	text-decoration: none;
+}
+.footer_listitem{
+	font-family: Poppins-regular;
+	font-size: 16px;
+}
+.footer_last{
+	font-family: Poppins-regular;
+	font-size: 16px;
+	color: #CDCDCD;
+	text-align: center;
+}
+/*Footer end*/
