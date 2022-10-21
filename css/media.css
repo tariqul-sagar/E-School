@@ -76,14 +76,14 @@
 		font-size: 27px;
 		line-height: 30px;
 	}
-	.test_img{
-		margin: 0 auto 27px;
+	.t_img {
+		margin: 10px auto;
+	    width: 135px;
+	    height: 135px;
 	}
-	.t_comment{
+	.t_item p{
 		text-align: center;
-	}
-	.t_comment p {
-	    line-height: 24px;
+		line-height: 24px;
 	}
 	/*Testimonial end*/
 
@@ -101,7 +101,7 @@
 		padding: 0 0 40px;
 	}
 	.footer_listitem{
-		margin-bottom: -15px;
+		margin-bottom: -18px;
 	}
 	.footer_para p{
 		line-height: 20px;
@@ -175,14 +175,14 @@
 		font-size: 27px;
 		line-height: 35px;
 	}
-	.test_img{
-		margin: 0 auto 27px;
+	.t_img {
+		margin: 10px auto;
+	    width: 140px;
+	    height: 140px;
 	}
-	.t_comment{
+	.t_item p{
 		text-align: center;
-	}
-	.t_comment p {
-	    line-height: 24px;
+		line-height: 26px;
 	}
 	/*Testimonial end*/
 
@@ -264,11 +264,10 @@
 		font-size: 35px;
 		line-height: 40px;
 	}
-	.test_img{
-		margin: 8px auto 0;
-	}
-	.t_comment p {
-	    line-height: 28px;
+	.t_item p {
+	    padding: 0 50px;
+	    text-align: center;
+	    line-height: 26px;
 	}
 	/*Testimonial end*/
 
@@ -297,8 +296,8 @@
 	/*Feature end*/
 
 	/*Testimonial start*/
-	.test_img{
-		margin: 12px auto 0;
+	.t_img {
+	    margin-top: 15px;
 	}
 	/*Testimonial end*/
 }
@@ -312,8 +311,8 @@
 	/*Feature end*/
 
 	/*Testimonial start*/
-	.test_img{
-		margin: -5px auto 0;
+	.t_img {
+	    margin-top: 12px;
 	}
 	/*Testimonial end*/
 }
