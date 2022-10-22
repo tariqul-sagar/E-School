@@ -63,14 +63,36 @@
 	/*Feature end*/
 
 	/*Course start*/
+	.course{
+		padding: 0 0 70px;
+	}
+	.title h1{
+		font-size: 30px;
+		line-height: 45px;
+	}
+	.course_content{
+		margin-top: 30px;
+		padding: 15px 15px 20px;
+	}
+	.course_h2{	
+		font-size: 20px;
+		line-height: 30px;	
+	}
+	.course_list{
+		margin-right: 0 !important;
+	}
+	.calendar ul li img, .people ul li img{
+		width: 20px;
+	}
+	.calendar ul li span,.people ul li span{
+		font-size: 15px;
+		font-weight: 400;
+	}
 	/*Course end*/
 
 	/*Testimonial start*/
 	.testimonial {
 	    padding: 0 0 70px;
-	}
-	.title {
-	    margin-bottom: 35px;
 	}
 	.title h1{
 		font-size: 27px;
@@ -81,32 +103,35 @@
 	    width: 135px;
 	    height: 135px;
 	}
+	.t_item{
+		margin-top: 30px;
+	}
 	.t_item p{
 		text-align: center;
 		line-height: 24px;
 	}
 	/*Testimonial end*/
 
-	/*Footer start*/
-	footer {
+	/*contact start*/
+	.contact {
 	    padding: 50px 0 25px;
 	    text-align: center;
 	}
-	.footer_para{
+	.contact_para{
 		margin-bottom: 30px;
 		padding: 0;
 		text-align: center;
 	}
-	.footer_list ul{
-		padding: 0 0 40px;
-	}
-	.footer_listitem{
-		margin-bottom: -18px;
-	}
-	.footer_para p{
+	.contact_para p{
 		line-height: 20px;
 	}
-	/*Footer end*/
+	.contact_list ul{
+		padding: 0 0 30px;
+	}
+	.contact_listitem{
+		margin-bottom: -18px;
+	}
+	/*contact end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -162,23 +187,47 @@
 	/*Feature end*/
 
 	/*Course start*/
+	.course{
+		padding: 0 0 70px;
+	}
+	.course_padding{
+		padding: 0 100px;
+	}
+	.title h1{
+		font-size: 30px;
+		line-height: 45px;
+	}
+	.course_content{
+		margin-top: 30px;
+		padding: 15px 15px 20px;
+	}
+	.course_h2{	
+		font-size: 20px;
+		line-height: 30px;	
+	}
+	.course_list{
+		margin-right: 0 !important;
+	}
+	.calendar ul li img, .people ul li img{
+		width: 20px;
+	}
+	.calendar ul li span,.people ul li span{
+		font-size: 15px;
+		font-weight: 400;
+	}
 	/*Course end*/
 
 	/*Testimonial start*/
 	.testimonial {
 	    padding: 0 0 70px;
 	}
-	.title {
-	    margin-bottom: 35px;
-	}
-	.title h1{
-		font-size: 27px;
-		line-height: 35px;
-	}
 	.t_img {
 		margin: 10px auto;
 	    width: 140px;
 	    height: 140px;
+	}
+	.t_item{
+		margin-top: 35px;
 	}
 	.t_item p{
 		text-align: center;
@@ -186,22 +235,25 @@
 	}
 	/*Testimonial end*/
 
-	/*Footer start*/
-	footer {
+	/*contact start*/
+	.contact {
 	    padding: 50px 0 25px;
 	}
-	.footer_para{
+	.contact_para{
 		margin-bottom: 30px;
 		padding: 0 75px;
 		text-align: center;
 	}
-	.footer_list ul{
-		padding: 0 0 40px;
-	}
-	.footer_para p{
+	.contact_para p{
 		line-height: 20px;
 	}
-	/*Footer end*/
+	.contact_list{
+		text-align: center;
+	}
+	.contact_list ul{
+		padding: 0 0 35px;
+	}	
+	/*contact end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -251,39 +303,49 @@
 	/*Feature end*/
 
 	/*Course start*/
+	.course{
+		padding: 0 0 80px;
+	}
+	.course_padding{
+		padding: 0 150px;
+	}
+	.course_content{
+		margin-top: 40px;
+	}
 	/*Course end*/
 
 	/*Testimonial start*/
 	.testimonial {
 	    padding: 0 0 80px;
 	}
-	.title {
-	    margin-bottom: 40px;
-	}
-	.title h1{
-		font-size: 35px;
-		line-height: 40px;
+	.t_item{
+		margin-top: 40px;
 	}
 	.t_item p {
-	    padding: 0 50px;
+	    padding-right: 20px;
 	    text-align: center;
 	    line-height: 26px;
 	}
 	/*Testimonial end*/
 
-	/*Footer start*/
-	.footer_para{
+	/*contact start*/
+	.contact_para{
 		margin-bottom: 35px;
 		padding: 0 75px;
 		text-align: center;
 	}
-	.footer_list ul{
-		padding: 0 0 50px;
-	}
-	.footer_para p{
+	.contact_para p{
 		line-height: 25px;
 	}
-	/*Footer end*/
+	.contact_list{
+		text-align: center;
+	}
+	.contact_list ul{
+		padding: 0 0 45px;
+	}
+	
+	/*contact end*/
+
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -294,6 +356,22 @@
 		min-height: 230px;
 	}
 	/*Feature end*/
+
+	/*Courses start*/
+	.course_content{
+		padding: 20px 18px 25px;
+	}
+	.course_list{
+		margin-right: -1px !important;
+	}
+	.calendar ul li img, .people ul li img{
+		width: 20px;
+	}
+	.calendar ul li span,.people ul li span{
+		font-size: 15px;
+		font-weight: 400;
+	}
+	/*Courses end*/
 
 	/*Testimonial start*/
 	.t_img {
@@ -309,6 +387,15 @@
 		padding: 55px 36px;
 	}
 	/*Feature end*/
+
+	/*Courses start*/
+	.course_list{
+		margin-right: 0 !important;
+	}
+	.calendar ul li img, .people ul li img{
+		width: 22px;
+	}
+	/*Courses end*/
 
 	/*Testimonial start*/
 	.t_img {

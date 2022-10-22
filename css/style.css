@@ -138,14 +138,8 @@ header{
 /*Feature CSS end*/
 
 /*Course CSS start*/
-/*Course CSS end*/
-
-/*Testimonial start*/
-.testimonial{
+.course{
 	padding: 0 0 100px;
-}
-.title{
-	margin-bottom: 65px;
 }
 .title h1{
 	font-family: Poppins-Bold;
@@ -154,8 +148,56 @@ header{
 	line-height: 54px;
 	text-align: center;
 }
+.course_content{
+	margin-top: 60px;
+	padding: 25px 20px 30px;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+}
+.course_img{}
+.course_img img{}
+.course_h2{
+	margin: 19px 0 3px;
+	font-family: Poppins-Medium;	
+	font-size: 24px;
+	font-weight: 500;
+	color: #413960;
+	line-height: 36px;	
+}
+.course_p{
+	line-height: 24px;
+}
+.btn_course{
+	margin: 20px 0 35px;
+	padding: 8px 25px;
+	width: 137px;
+	height: 35px;
+}
+.course_footer{
+	overflow: hidden;
+}
+.calendar{}
+.calendar ul, .people ul{}
+.calendar ul li, .people ul li{}
+.calendar ul li img, .people ul li img{
+	width: 24px;
+}
+.calendar ul li span,.people ul li span{
+	font-weight: 500;
+	line-height: 24px;
+}
+.people{}
+/*Course CSS end*/
+
+/*Testimonial start*/
+.testimonial{
+	padding: 0 0 100px;
+}
 .t_inner{}
-.t_item{}
+.t_item{
+	margin-top: 60px;
+}
 .t_img{
 	width: 120px;
 	height: 120px;
@@ -168,46 +210,64 @@ header{
 /*Testimonial end*/
 
 /*Footer start*/
-footer{
+.contact{
 	padding: 55px 0 30px;
 	color: #ffffff;
 	background-color: #282531;
 }
-.footer_para{
+.contact_para{
 	padding: 0 28px;
 }
-.footer_para p{
+.contact_para p{
 	line-height: 30px;
 }
-.footer_h2{
-	font-family: Poppins-Bold;
-	font-size: 18px;
-	font-weight: 700;	
-	line-height: 30px;
-}
-.footer_list{}
-.footer_list ul{
-	padding: 0 0 75px;
+.contact_list{}
+.contact_list ul{
+	padding: 0 0 60px;
 	list-style: none;
 }
 @font-face{
 	src: url(../fonts/Poppins-Regular.otf);
 	font-family: Poppins-Regular;	
 }
-
-.footer_list ul li a{
+.contact_list ul li a{
 	font-family: Poppins-regular;
 	color: #ffffff;
 	text-decoration: none;
+	transition: .33s ease-in-out;
 }
-.footer_listitem{
+.contact_list ul li a:hover{
+	color: #FD511A;
+}
+.contact_h2{
+	font-family: Poppins-Bold;
+	font-size: 18px;
+	font-weight: 700;	
+	line-height: 30px;
+}
+.contact_listitem{
 	font-family: Poppins-regular;
 	font-size: 16px;
 }
-.footer_last{
+
+/*Conatct CSS end*/
+
+
+/*Footer CSS start*/
+footer{
+	padding: 0 0 25px;
 	font-family: Poppins-regular;
 	font-size: 14px;
 	color: #CDCDCD;
 	text-align: center;
+	background-color: #282531;
 }
-/*Footer end*/
+footer a{
+	color: #CDCDCD;
+	text-decoration: none;
+	transition: .33s ease-in-out;
+}
+footer a:hover{
+	color: #FD511A;
+}
+/*Footer CSS end*/
